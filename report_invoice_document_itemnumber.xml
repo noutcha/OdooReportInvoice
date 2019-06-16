@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<data inherit_id="account.report_invoice_document">
+            <xpath expr="//div[contains(@class, 'page')]/table[1]/thead/tr/th[1]" position="before">
+                <th>Item</th>
+            </xpath>
+            <xpath expr="//div[contains(@class, 'page')]/table[1]/tbody/tr/td[1]" position="before">
+                <td>
+                    <span t-field="l.item_number"/>
+                </td>
+            </xpath>
+</data>
