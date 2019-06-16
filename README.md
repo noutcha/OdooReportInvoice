@@ -15,7 +15,7 @@ Petit aperçus du code
 =====================
 
 
-```xml
+```html
 
 <?xml version="1.0"?>
 <t t-name="report_invoice_document">
